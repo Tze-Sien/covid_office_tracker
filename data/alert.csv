@@ -1,0 +1,2 @@
+went_covid_areas,fever,cough,breath_diff,sore,loss_sense_taste_smell,close_contact,countries_visited,city,departments
+False,False,False,False,False,False,False,"['Sarawak', 'Penang', 'Sabah']","['Bukit Mertajam', 'Georgetown']","['sales', 'marketing']"
