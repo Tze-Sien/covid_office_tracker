@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def welcome():
-    return 'Welcome to The Backend API'
+    return 'Welcome to The Backend API - Testing'
 
 # ------- User Routes ------- #
 
@@ -13,7 +13,7 @@ def welcome():
 def signup(): 
     data = request.json
     res = controllers.signup(data)
-    return res
+    # return res
 
 
 @app.route('/user/signin', methods=['POST'])
