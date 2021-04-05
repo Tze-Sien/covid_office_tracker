@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def welcome():
-    return 'Welcome to The Backend API - Testing'
+    return 'Welcome to The Backend API - Second Testing'
 
 # ------- User Routes ------- #
 
